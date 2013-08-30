@@ -1,0 +1,17 @@
+{
+  "name": "angular-forkit",
+  "version": "0.0.0",
+  "homepage": "https://github.com/gdi2290/angular-forkit",
+  "authors": [
+    "gdi2290 <github@gdi2290.com>"
+  ],
+  "description": "An Angular module for forkit.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
