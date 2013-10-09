@@ -4,11 +4,12 @@
   if (!angular) {
     throw new Error('window.angular is not defined.');
   }
-  var module = angular.module('forkit', []);
-  module.directive('forkit', ['$parse', function($parse) {
-    return function(scope, element, attr) {
+  
+  angular.module('angular-forkit', [])
+    .directive('forkit', ['$parse', function($parse) {
+      return function(scope, element, attr) {
 
-    };
-  }]);
+      };
+    }]);
 
 }(window, angular));
